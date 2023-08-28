@@ -12,34 +12,34 @@
 
 <!-- Badges -->
 <p>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/ladunjexa/Threejs_3D_Portfolio" alt="contributors" />
+  <a href="https://github.com/farshidnz/3dprofile/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/farshidnz/3dprofile" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/ladunjexa/Threejs_3D_Portfolio" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/farshidnz/3dprofile" alt="last update" />
   </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/network/members">
-    <img src="https://img.shields.io/github/forks/ladunjexa/Threejs_3D_Portfolio" alt="forks" />
+  <a href="https://github.com/farshidnz/3dprofile/network/members">
+    <img src="https://img.shields.io/github/forks/farshidnz/3dprofile" alt="forks" />
   </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/stargazers">
-    <img src="https://img.shields.io/github/stars/ladunjexa/Threejs_3D_Portfolio" alt="stars" />
+  <a href="https://github.com/farshidnz/3dprofile/stargazers">
+    <img src="https://img.shields.io/github/stars/farshidnz/3dprofile" alt="stars" />
   </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">
-    <img src="https://img.shields.io/github/issues/ladunjexa/Threejs_3D_Portfolio" alt="open issues" />
+  <a href="https://github.com/farshidnz/3dprofile/issues/">
+    <img src="https://img.shields.io/github/issues/farshidnz/3dprofile" alt="open issues" />
   </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ladunjexa/Threejs_3D_Portfolio.svg" alt="license" />
+  <a href="https://github.com/farshidnz/3dprofile/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/farshidnz/3dprofile.svg" alt="license" />
   </a>
 </p>
    
  <h4>
     <a href="https://threejs-3-d-portfolio.vercel.app/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio">Documentation</a>
+    <a href="https://github.com/farshidnz/3dprofile">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">Report Bug</a>
+    <a href="https://github.com/farshidnz/3dprofile/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">Request Feature</a>
+    <a href="https://github.com/farshidnz/3dprofile/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -118,7 +118,7 @@ Threejs_3D_Portfolio/
 Download or clone this repo by using the link below:
 
 ```bash
- https://github.com/ladunjexa/Threejs_3D_Portfolio.git
+ https://github.com/farshidnz/3dprofile
 ```
 
 #### Step 2:
@@ -177,10 +177,6 @@ At the main folder execute the following command in console to run the developme
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ladunjexa/Threejs_3D_Portfolio" />
-</a>
-
 
 Contributions are always welcome!
 
@@ -209,9 +205,9 @@ Distributed under the MIT License. See [LICENSE.txt](https://github.com/ladunjex
 <!-- Contact -->
 ## :handshake: Contact
 
-Liron Abutbul - [@lironabutbul6](https://twitter.com/lironabutbul6) - [@ladunjexa](https://t.me/ladunjexa)
+Farshid Shokoohi - [@farshidnz]
 
-Project Link: [https://github.com/ladunjexa/Threejs_3D_Portfolio](https://github.com/ladunjexa/Threejs_3D_Portfolio)
+Project Link: [https://github.com/farshidnz/3dprofile](https://github.com/farshidnz/3dprofile)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,6 +224,3 @@ This section used to mention useful resources and libraries that used in 3D Port
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="center">
-<img src="https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/main/public/logo.png" height="auto" width="10%" />
-</p>
