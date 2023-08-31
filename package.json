@@ -7,7 +7,8 @@
     "start": "vite --host", 
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:digitalocean": "npm install --legacy-peer-deps && npm run build && npm start"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

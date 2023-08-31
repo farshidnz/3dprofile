@@ -151,7 +151,7 @@ const Navbar = () => {
         <a href="https://www.buymeacoffee.com/farshidnz" target="_blank" rel="noopener noreferrer">
           <img src={buymecoffee} alt="buymecoffee" className="w-9 h-9 object-contain" />
         </a>
-        </div>
+      </div>
     </nav>
   );
 };
