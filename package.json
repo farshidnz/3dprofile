@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "npm": "^8.19.4"
+    "node": "~16.20.2",
+    "npm": "~8.0.0"
   },
   "scripts": {
     "start": "vite --host", 
