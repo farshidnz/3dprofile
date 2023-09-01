@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:digitalocean": "npm install --legacy-peer-deps && npm run build"
+    "build:digitalocean": "docker build -t myprofile . && docker run -p 80:80 -d myprofile"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

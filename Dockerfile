@@ -12,6 +12,6 @@ COPY . .
 # Build the production version of the application
 RUN npm run build
 # Expose port 80 to the outside world
-EXPOSE 5173
+EXPOSE 80
 # Run the command to start the server
-CMD ["npm","run", "start", "--", "--host", "0.0.0.0", "--port", "5173"]
+CMD ["npm","run", "start", "--", "--host", "0.0.0.0", "--port", "80"]
