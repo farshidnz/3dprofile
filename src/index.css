@@ -125,6 +125,11 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+@media (max-width: 768px) {
+  .mobile-text {
+    font-size: 35px; /* Adjust the desired font size for mobile view */
+  }
+}
 
 @keyframes mulShdSpin {
   0%,
