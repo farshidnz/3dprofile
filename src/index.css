@@ -15,7 +15,7 @@
 
 .hash-span {
   margin-top: -100px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   display: block;
 }
 
@@ -129,6 +129,9 @@
   .mobile-text {
     font-size: 35px; /* Adjust the desired font size for mobile view */
   }
+  .tech-container {
+    display: none;
+  }
 }
 
 @keyframes mulShdSpin {
@@ -206,4 +209,153 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+/* skill bar */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #root {
+    height: 100vh;
+    display: flex;
+    background-color: crimson;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container{
+  position: relative;
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto; /* Center horizontally */
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.title-text {
+    text-align: center;
+    background-color: #434343;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 30%;
+    margin: auto;
+}
+
+.container .skill-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0, 0, 0.1);
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: #804dee;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.Devops {
+    width: 85%;
+    animation-delay: 0.2s;
+}
+
+.skill-per.javascript{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 75%;
+    animation-delay: 0.3s;
+}
+.skill-per.reactjs{
+    width: 70%;
+    animation-delay: 0.3s;
+}
+.skill-per.Golang{
+    width: 40%;
+    animation-delay: 0.3s;
+}
+.skill-per.Aws{
+    width: 80%;
+    animation-delay: 0.3s;
+}
+.skill-per.Python{
+    width: 35%;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: crimson;
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: crimson;
+    transform: translateX(-50%) rotate(45deg);
+}
+.column1 {
+  flex: 1; /* Distribute available space evenly between columns */
+  margin-right: 20px; /* Add some spacing between columns */
+}
+.column2 {
+  flex: 1; /* Distribute available space evenly between columns */
+  margin-right: 0px; /* Add some spacing between columns */
+}
+.skills-container {
+  display: flex; /* Use flexbox to make the columns side by side */
+  justify-content: space-between; /* Add space between columns */
+  align-items: flex-start; /* Align items to the top of each column */
 }
