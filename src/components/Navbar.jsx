@@ -48,16 +48,17 @@ const Navbar = () => {
 
   return (
     <nav
+    style={{ height: '90px' }}
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="flex gap-2"
           onClick={() => {
             window.scrollTo(0, 0);
           }}
@@ -102,9 +103,10 @@ const Navbar = () => {
                   )}
             </li>
           ))}
-        </ul>
-        
-<div></div>
+        </ul>  
+      <div>
+      <div>  
+      </div>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -136,21 +138,24 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex" style={{
-            gap: 25,
-          }}>
-        <a href="https://www.linkedin.com/in/farshids/" target="_blank" rel="noopener noreferrer">
-          <img src={linkedin} alt="linkedin" className="w-9 h-9 object-contain" />
-        </a>
-        <a href="https://github.com/farshidnz" target="_blank" rel="noopener noreferrer">
-          <img src={github} alt="github" className="w-9 h-9 object-contain" />
-        </a>
-        <a href="mailto:shokoohi.farshid@gmail.com" target="_blank" rel="noopener noreferrer">
-          <img src={email} alt="email" className="w-9 h-9 object-contain" />
-        </a>
-        <a href="https://www.buymeacoffee.com/farshidnz" target="_blank" rel="noopener noreferrer">
-          <img src={buymecoffee} alt="buymecoffee" className="w-9 h-9 object-contain" />
-        </a>
+      </div>
+      <div style={{ paddingLeft: 'inherit' }}>
+        <div className="flex flex-col" style={{
+              gap: 25
+            }}>
+          <a href="https://www.linkedin.com/in/farshids/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="linkedin" className="w-9 h-9 object-contain" />
+          </a>
+          <a href="https://github.com/farshidnz" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="github" className="w-9 h-9 object-contain" />
+          </a>
+          <a href="mailto:shokoohi.farshid@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src={email} alt="email" className="w-9 h-9 object-contain" />
+          </a>
+          <a href="https://www.buymeacoffee.com/farshidnz" target="_blank" rel="noopener noreferrer">
+            <img src={buymecoffee} alt="buymecoffee" className="w-9 h-9 object-contain" />
+          </a>
+        </div>
       </div>
     </nav>
   );
