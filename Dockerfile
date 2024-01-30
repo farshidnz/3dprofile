@@ -7,6 +7,7 @@ COPY package.json ./
 # Install dependencies
 RUN npm install --legacy-peer-deps
 RUN npm install
+RUN npm i vite
 # Copy the rest of the application code to the container
 COPY . .
 # Build the production version of the application
