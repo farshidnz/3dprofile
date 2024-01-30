@@ -211,7 +211,7 @@ Project Link: [https://github.com/farshidnz/3dprofile](https://github.com/farshi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Acknowledgments -->
+<!-- Acknowledgments --> 
 ## :gem: Acknowledgements
 
 This section used to mention useful resources and libraries that used in 3D Portfolio
