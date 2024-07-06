@@ -235,8 +235,8 @@ const experiences = [
     date: "September 2018 - December 2018",
     points: [
       "Reviewing infrastructure architecture plan.",
-      "Ejecuted number of penetration testing using Burpsuite.",
-      "Writing security report of new and ejisting projects.",
+      "Executed number of penetration testing using Burpsuite.",
+      "Writing security report of new and existing projects.",
       "Being involved in software security architectural decisions.",
       "Using AWS ARN and IAM policies to specify a resource security management.",
     ],
