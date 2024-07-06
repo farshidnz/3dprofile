@@ -208,7 +208,7 @@ const experiences = [
       "Implementing a number of new APIs on .NET Core for a greendfield project.",
       "Implementing Mule Soft applications for integration between applications.",
       "Setting up CI/CD pipeline on Azure Devops.",
-      " Using Kubernetes for docker management.",
+      "Using Kubernetes for docker container management.",
       "Being involved in design and architecture of the project",
     ],
   },
@@ -235,7 +235,7 @@ const experiences = [
     date: "September 2018 - December 2018",
     points: [
       "Reviewing infrastructure architecture plan.",
-      "Executed number of penetration testing using Burpsuite.",
+      "Executed a number of penetration test using Burpsuite.",
       "Writing security report of new and existing projects.",
       "Being involved in software security architectural decisions.",
       "Using AWS ARN and IAM policies to specify a resource security management.",
@@ -249,9 +249,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "September 2016- September 2018",
     points: [
-      "Developing and establishing number Web APIs application.",
+      "Developing and establishing a number Web API applications.",
       "Converting WCF services to REST APIs.",
-      "Migrate all our WCF,Web API, MVC Windows Services into AWS.",
+      "Migrate all our WCF, Web API, MVC Windows Services into AWS.",
       "Setting up CI/CD pipelines.",
       "Developing APIs and Deployment scripts using Python.",
       "Developing lambda function on AWS using Python and Node js.",
@@ -398,7 +398,7 @@ const projects = [
   {
     name: "Xero",
     description:
-      "I was involved in one of the Platform teams at Xero. Our project were range of migrating our services to AWS, writing number new APIs and background services, implementing a number of Lambda functions, dockerising many applications and many more.",
+      "I was involved in one of the Platform teams at Xero. Our project were range of migrating our services to AWS, writing a number new APIs and background services, implementing a number of Lambda functions, dockerising many applications and many more.",
     tags: [
       {
         name: "nextjs",
