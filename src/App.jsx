@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 import {
   About,
@@ -35,6 +36,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Analytics />
         <SpeedInsights />
       </div>
     </BrowserRouter>
