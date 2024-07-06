@@ -79,7 +79,7 @@ const Navbar = () => {
             >
               {nav.id === 'cv' ? (
                  <a
-                 href="/Farshid-CV.pdf"
+                 href="https://elm4mj2xqjrmrpac.public.blob.vercel-storage.com/Farshid-CV.pdf"
                  target="_blank" // Open in a new tab
                  rel="noopener noreferrer"
                  //download="Farshid-CV.pdf"
