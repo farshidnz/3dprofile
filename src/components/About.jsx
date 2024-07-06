@@ -50,7 +50,7 @@ const About = () => {
         I'm a Senior Software and DevOps Engineer with over 10 years of experience, fueled by a deep passion for solving 
         intricate software challenges through development and design. My ultimate goal is 
         to create impactful solutions that enhance people's lives. 
-        With a performance oriented, dedicated, and creative mindset, I possess robust analytical and proble solving process.
+        With a performance oriented, dedicated, and creative mindset, I possess robust analytical and problem solving process.
 
       </motion.p>
 
