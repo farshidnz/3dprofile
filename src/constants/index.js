@@ -205,7 +205,7 @@ const experiences = [
     iconBg: "#FFFFFF  ",
     date: "March 2019 - Nov 2019",
     points: [
-      "Implementing number of new APIs on .NET Core for a greendfield project.",
+      "Implementing a number of new APIs on .NET Core for a greendfield project.",
       "Implementing Mule Soft applications for integration between applications.",
       "Setting up CI/CD pipeline on Azure Devops.",
       " Using Kubernetes for docker management.",
@@ -221,7 +221,7 @@ const experiences = [
     date: "December 2018 - March 2019",
     points: [
       "Design and architectural decisions for new implementations and services.",
-      "Implementing new features in legacy and new applications.",
+      "Implementing a new features in legacy and new applications.",
       "Setting up test framework, CI/CD pipelines and test servers.",
       "Upgrading .NET framework to .NET Core 2.1.",
     ],
@@ -398,7 +398,7 @@ const projects = [
   {
     name: "Xero",
     description:
-      "I was involved in one of the Platform teams at Xero. Our project were range of migrating our services to AWS, writing number new APIs and background services, implementing number of Lambda functions, dockerising many applications and many more.",
+      "I was involved in one of the Platform teams at Xero. Our project were range of migrating our services to AWS, writing number new APIs and background services, implementing a number of Lambda functions, dockerising many applications and many more.",
     tags: [
       {
         name: "nextjs",
