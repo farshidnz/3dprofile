@@ -38,6 +38,14 @@ function SkillsBar () {
                        <span className="tooltip">75%</span>
                    </span>
                </div>
+           <div className="skill-box">
+               <span className="title">Terraform</span>
+               <div className="skill-bar">
+                   <span className="skill-per Terraform">
+                       <span className="tooltip">85%</span>
+                   </span>
+               </div>
+           </div>
            </div>
            </div>
            <div className="column2">
@@ -70,6 +78,14 @@ function SkillsBar () {
                <div className="skill-bar">
                    <span className="skill-per Python">
                        <span className="tooltip">35%</span>
+                   </span>
+               </div>
+           </div>
+           <div className="skill-box">
+               <span className="title">Snowflake</span>
+               <div className="skill-bar">
+                   <span className="skill-per Snowflake">
+                       <span className="tooltip">45%</span>
                    </span>
                </div>
            </div>
